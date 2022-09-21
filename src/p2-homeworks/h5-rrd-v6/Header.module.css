@@ -1,0 +1,32 @@
+.link {
+    color: burlywood;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.link:hover {
+    color: black;
+}
+
+.block {
+    width: 25px;
+    height: 25px;
+    background: purple;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    width: 270px;
+    transition-duration: 500ms;
+    transform: translate(-230px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+.active {
+    color: #243f1e;
+}
